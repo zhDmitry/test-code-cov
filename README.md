@@ -1,17 +1,18 @@
 # Travis Coveralls Example
+
 Example repo for including Coveralls in Travis CI build process. (Using jest to run tests)
 
-Prerequisites
--------------
+## Prerequisites
+
 - Make sure repo is added to Travis CI
 - Make sure repo is added to Coveralls.io
 
-Install Coveralls package
--------------------------
+## Install Coveralls package
+
 `npm install coveralls --save-dev`
 
-Add Coveralls command to package.json
--------------------------------------
+## Add Coveralls command to package.json
+
 ```json
   "scripts": {
     ...
@@ -19,13 +20,13 @@ Add Coveralls command to package.json
   },
 ```
 
-Add Coveralls command to .travis.yml
-------------------------------------
+## Add Coveralls command to .travis.yml
+
 ```yml
-  script:
+script:
   - npm run coveralls
 ```
 
-Configurations
--------------
+## Configurations
+
 The above steps automatically integrates Coveralls in the Travis CI build. Further configurations are possible under the "PULL REQUESTS ALERTS" section in the repo settings at coveralls.io.
