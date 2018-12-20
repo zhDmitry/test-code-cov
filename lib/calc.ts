@@ -5,4 +5,7 @@ export default class Calculator {
   add2(x: number, y: number): number {
     return x + y;
   }
+  add3(x: number, y: number): number {
+    return x + y;
+  }
 }
