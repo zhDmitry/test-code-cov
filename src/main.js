@@ -11,3 +11,8 @@ new Vue({
   components: { App },
   template: '<App/>',
 });
+
+
+function a () {
+console.log('1')
+}
